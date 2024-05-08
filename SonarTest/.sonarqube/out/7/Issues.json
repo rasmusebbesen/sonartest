@@ -1,0 +1,330 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-7.23572.1 (7b75981c)",
+        "semanticVersion": "4.8.0",
+        "language": "en-DK"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field '_database' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 34,
+                  "endLine": 14,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 34,
+                  "endLine": 14,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 41,
+                  "endLine": 29,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 30,
+                  "endLine": 38,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 27,
+                  "endLine": 47,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 38,
+                  "endLine": 52,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 38,
+                  "endLine": 57,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 38,
+                  "endLine": 62,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 30,
+                  "endLine": 96,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 40,
+                  "endLine": 109,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 30,
+                  "endLine": 119,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "NUnit1028",
+          "level": "note",
+          "message": "Only test methods should be public",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 35,
+                  "endLine": 131,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Prefer comparing 'Length' to 0 rather than using 'Any()', both for clarity and for performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Testing.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 13,
+                  "endLine": 72,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Length"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CA1860": {
+          "id": "CA1860",
+          "shortDescription": "Avoid using 'Enumerable.Any()' extension method",
+          "fullDescription": "Prefer using 'IsEmpty', 'Count' or 'Length' properties whichever available, rather than calling 'Enumerable.Any()'. The intent is clearer and it is more performant than using 'Enumerable.Any()' extension method.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "NUnit1028": {
+          "id": "NUnit1028",
+          "shortDescription": "The non-test method is public",
+          "fullDescription": "A fixture should not contain any public non-test methods.",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/nunit/nunit.analyzers/tree/master/documentation/NUnit1028.md",
+          "properties": {
+            "category": "Structure",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

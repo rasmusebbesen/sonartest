@@ -1,0 +1,8 @@
+﻿/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Infrastructure.IntegrationTests/GlobalUsings.cs
+/Users/re/.nuget/packages/microsoft.net.test.sdk/17.9.0/build/netcoreapp3.1/Microsoft.NET.Test.Sdk.Program.cs
+/Users/re/.nuget/packages/nunit3testadapter/4.5.0/build/netcoreapp3.1/NUnit3.TestAdapter.dll
+/Users/re/.nuget/packages/nunit3testadapter/4.5.0/build/netcoreapp3.1/NUnit3.TestAdapter.pdb
+/Users/re/.nuget/packages/nunit3testadapter/4.5.0/build/netcoreapp3.1/nunit.engine.dll
+/Users/re/.nuget/packages/nunit3testadapter/4.5.0/build/netcoreapp3.1/nunit.engine.api.dll
+/Users/re/.nuget/packages/nunit3testadapter/4.5.0/build/netcoreapp3.1/nunit.engine.core.dll
+/Users/re/.nuget/packages/nunit3testadapter/4.5.0/build/netcoreapp3.1/testcentric.engine.metadata.dll

@@ -1,0 +1,624 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-7.23572.1 (7b75981c)",
+        "semanticVersion": "4.8.0",
+        "language": "en-DK"
+      },
+      "results": [
+        {
+          "ruleId": "S2094",
+          "level": "warning",
+          "message": "Remove this empty class, write its code or make it an \"interface\".",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Identity/ApplicationUser.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 14,
+                  "endLine": 5,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'AspNetRoles' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 41,
+                  "endLine": 78,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 41,
+                  "endLine": 137,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 24,
+                  "endLine": 203,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 23,
+                  "endLine": 261,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'AspNetUsers' 8 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 23,
+                  "endLine": 26,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 41,
+                  "endLine": 99,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 41,
+                  "endLine": 119,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 41,
+                  "endLine": 143,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 41,
+                  "endLine": 163,
+                  "endColumn": 54
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 24,
+                  "endLine": 224,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 24,
+                  "endLine": 229,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 23,
+                  "endLine": 264,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'INTEGER' 12 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 63,
+                  "endLine": 34,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 69,
+                  "endLine": 39,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 65,
+                  "endLine": 40,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 63,
+                  "endLine": 42,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 65,
+                  "endLine": 43,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 50,
+                  "endLine": 51,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 50,
+                  "endLine": 66,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 50,
+                  "endLine": 87,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 50,
+                  "endLine": 172,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 54,
+                  "endLine": 174,
+                  "endColumn": 63
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 56,
+                  "endLine": 177,
+                  "endColumn": 65
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 53,
+                  "endLine": 179,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Sqlite:Autoincrement' 4 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 37,
+                  "endLine": 52,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 37,
+                  "endLine": 67,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 37,
+                  "endLine": 88,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 37,
+                  "endLine": 173,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2139",
+          "level": "warning",
+          "message": "Either log this exception and handle it, or rethrow it with some contextual information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 26,
+                  "endLine": 49,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 13,
+                  "endLine": 51,
+                  "endColumn": 87
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 13,
+                  "endLine": 52,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Logging statement.",
+              "1": "Thrown exception."
+            }
+          }
+        },
+        {
+          "ruleId": "S2139",
+          "level": "warning",
+          "message": "Either log this exception and handle it, or rethrow it with some contextual information.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 26,
+                  "endLine": 62,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 13,
+                  "endLine": 64,
+                  "endColumn": 82
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 13,
+                  "endLine": 65,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Logging statement.",
+              "1": "Thrown exception."
+            }
+          }
+        },
+        {
+          "ruleId": "ASP0025",
+          "level": "note",
+          "message": "Use AddAuthorizationBuilder to register authorization services and construct policies",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/DependencyInjection.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 9,
+                  "endLine": 51,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1860",
+          "level": "note",
+          "message": "Prefer comparing 'Count' to 0 rather than using 'Any()', both for clarity and for performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Interceptors/DispatchDomainEventsInterceptor.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 25,
+                  "endLine": 38,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "DiagnosticPropertyKey": "Count"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "ASP0025": {
+          "id": "ASP0025",
+          "shortDescription": "Use AddAuthorizationBuilder",
+          "defaultLevel": "note",
+          "helpUri": "https://aka.ms/aspnet/analyzers",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "CA1860": {
+          "id": "CA1860",
+          "shortDescription": "Avoid using 'Enumerable.Any()' extension method",
+          "fullDescription": "Prefer using 'IsEmpty', 'Count' or 'Length' properties whichever available, rather than calling 'Enumerable.Any()'. The intent is clearer and it is more performant than using 'Enumerable.Any()' extension method.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2094": {
+          "id": "S2094",
+          "shortDescription": "Classes should not be empty",
+          "fullDescription": "There is no good excuse for an empty class. If it’s being used simply as a common extension point, it should be replaced with an interface. If it was stubbed in as a placeholder for future development it should be fleshed-out. In any other case, it should be eliminated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2094",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2139": {
+          "id": "S2139",
+          "shortDescription": "Exceptions should be either logged or rethrown but not both",
+          "fullDescription": "When an exception is logged and rethrown, the upstream code may not be aware that the exception has already been logged. As a result, the same exception gets logged multiple times, making it difficult to identify the root cause of the issue. This can be particularly problematic in multi-threaded applications where messages from other threads can be interwoven with the repeated log entries.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2139",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

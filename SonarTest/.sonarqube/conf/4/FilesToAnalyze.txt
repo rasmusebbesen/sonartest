@@ -1,0 +1,14 @@
+﻿/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContext.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Configurations/TodoItemConfiguration.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Configurations/TodoListConfiguration.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Interceptors/AuditableEntityInterceptor.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Interceptors/DispatchDomainEventsInterceptor.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/00000000000000_InitialCreate.Designer.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Data/Migrations/ApplicationDbContextModelSnapshot.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/DependencyInjection.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/GlobalUsings.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Identity/ApplicationUser.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Identity/IdentityResultExtensions.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Identity/IdentityService.cs

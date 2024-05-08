@@ -1,0 +1,31 @@
+Product projects
+---------------------------------------
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Domain.csproj
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Web/Web.csproj
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Infrastructure/Infrastructure.csproj
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Application/Application.csproj
+
+
+Test projects
+---------------------------------------
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.FunctionalTests/Application.FunctionalTests.csproj
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Infrastructure.IntegrationTests/Infrastructure.IntegrationTests.csproj
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Domain.UnitTests/Domain.UnitTests.csproj
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/tests/Application.UnitTests/Application.UnitTests.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

@@ -1,0 +1,15 @@
+﻿/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Common/BaseAuditableEntity.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Common/BaseEntity.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Common/BaseEvent.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Common/ValueObject.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Constants/Policies.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Constants/Roles.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Entities/TodoItem.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Entities/TodoList.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Enums/PriorityLevel.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Events/TodoItemCompletedEvent.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Events/TodoItemCreatedEvent.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Events/TodoItemDeletedEvent.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/Exceptions/UnsupportedColourException.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/GlobalUsings.cs
+/Users/re/Documents/projects/sonartest/SonarTest/SonarTest/src/Domain/ValueObjects/Colour.cs
